@@ -14,7 +14,7 @@ Read more in README in each individual folder.
 
 ### Release process
 
-- Tags pushed in format of cdk8s-cmp-<language>/v<major>.<minor> will trigger release workflow for relevant package. Make sure to update the `CHANGELOG.md`
+- Tags pushed in format of `cdk8s-cmp-<language>/v<major>.<minor>` will trigger release workflow for relevant package. Make sure to update the `CHANGELOG.md`
 
 - Or you can run this command to simplify release.
 
