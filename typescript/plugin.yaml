@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ConfigManagementPlugin
+metadata:
+  name: cdk8s-typescript
+spec:
+  version: v1.0
+  init:
+    command: [npm]
+    args: [install]
+  generate:
+    command: [cdk8s, synth]
+    args: [--stdout]
+  discover:
+    fileName: "*.ts"
