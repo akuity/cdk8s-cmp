@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ConfigManagementPlugin
+metadata:
+  name: cdk8s-go
+spec:
+  version: v1.0
+  init:
+    command: [cdk8s]
+    args: [import]
+  generate:
+    command: [cdk8s, synth]
+    args: [--stdout]
+  discover:
+    fileName: "*.go"
