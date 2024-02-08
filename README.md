@@ -6,8 +6,8 @@ This repository contains individual and all-in-one Docker images for [cdk8s](htt
 
 1. cdk8s Typescript
 2. cdk8s Python
-3. cdk8s Golang (Coming Soon)
-4. cdk8s Java (Coming Soon)
+3. cdk8s Golang 
+4. cdk8s Java
 5. cdk8s with all of the above languages support (Coming Soon)
 
 Read more in README in each individual folder.

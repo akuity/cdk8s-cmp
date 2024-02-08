@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ConfigManagementPlugin
+metadata:
+  name: cdk8s-java
+spec:
+  version: v1.0
+  init:
+    command: [sh, -c]
+    args: [cdk8s import && mvn compile]
+  generate:
+    command: [cdk8s, synth]
+    args: [--stdout]
+  discover:
+    fileName: "pom.xml"
