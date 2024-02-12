@@ -1,6 +1,6 @@
-read -p "Enter name of language package you want to update (typescript/python): " LANGUAGE
+read -p "Enter name of language package you want to update (typescript/python/go/java): " LANGUAGE
 
-if [ "$LANGUAGE" != "typescript" ] && [ "$LANGUAGE" != "python" ]; then
+if [ "$LANGUAGE" != "typescript" ] && [ "$LANGUAGE" != "python" ] && [ "$LANGUAGE" != "go" ] && [ "$LANGUAGE" != "java" ]; then
     echo "Error: Invalid language. Please enter either 'typescript' or 'python'."
     exit 1
 fi
