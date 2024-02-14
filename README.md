@@ -5,9 +5,29 @@ This repository contains individual and all-in-one Docker images for [cdk8s](htt
 ### Available Images
 
 1. cdk8s Typescript
+
+```sh
+ghcr.io/akuity/cdk8s-cmp-typescript
+```
+
 2. cdk8s Python
-3. cdk8s Golang 
+
+```sh
+ghcr.io/akuity/cdk8s-cmp-python
+```
+
+3. cdk8s Golang
+
+```sh
+ghcr.io/akuity/cdk8s-cmp-go
+```
+
 4. cdk8s Java
+
+```sh
+ghcr.io/akuity/cdk8s-cmp-java
+```
+
 5. cdk8s with all of the above languages support (Coming Soon)
 
 Read more in README in each individual folder.
