@@ -6,7 +6,7 @@ on:
       - 'cdk8s-cmp-python/v*'
 env:
   REGISTRY: ghcr.io
-  ACTOR: ${{ github.actor }}
+  ACTOR: akuity
 
 jobs:
   build-and-push-image:
